@@ -1,0 +1,24 @@
+{
+  "name": "clickagendavet-api",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/clickagendavet-api.js",
+    "dev": "tsx watch src/clickagendavet-api.ts"
+  },
+  "dependencies": {
+    "fastify": "^4.26.0",
+    "@fastify/cors": "^9.0.0",
+    "@fastify/jwt": "^8.0.0",
+    "@supabase/supabase-js": "^2.39.0",
+    "resend": "^3.2.0",
+    "date-fns": "^3.3.0",
+    "node-cron": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/node": "^20.0.0",
+    "@types/node-cron": "^3.0.0",
+    "tsx": "^4.7.0"
+  }
+}
